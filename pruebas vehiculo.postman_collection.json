@@ -1,0 +1,405 @@
+{
+  "info": {
+    "_postman_id": "89edad5e-1ad8-4566-a3d1-a576e8e99d0e",
+    "name": "pruebas vehiculo",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "29078882"
+  },
+  "item": [
+    {
+      "name": "listar vehiculos",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "44.211.198.247:8082/api/v2/vehiculos",
+          "host": [
+            "44",
+            "211",
+            "198",
+            "247"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "v2",
+            "vehiculos"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "listar vehiculos",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "44.211.198.247:8082/api/v2/vehiculos",
+              "host": [
+                "44",
+                "211",
+                "198",
+                "247"
+              ],
+              "port": "8082",
+              "path": [
+                "api",
+                "v2",
+                "vehiculos"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 22:25:03 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 9,\n        \"matricula\": \"43hzb3\",\n        \"marca\": \"mish\",\n        \"color\": \"rojo\",\n        \"version\": null,\n        \"ano\": 2025,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": \"1990-05-12\"\n    },\n    {\n        \"id\": 10,\n        \"matricula\": \"43hzb3\",\n        \"marca\": \"mish\",\n        \"color\": \"rojo\",\n        \"version\": null,\n        \"ano\": 2025,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": \"1990-05-12\"\n    },\n    {\n        \"id\": 11,\n        \"matricula\": \"43hzb3\",\n        \"marca\": \"mish\",\n        \"color\": \"rojo\",\n        \"version\": null,\n        \"ano\": 2025,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": \"1990-05-12\"\n    },\n    {\n        \"id\": 13,\n        \"matricula\": \"321243\",\n        \"marca\": \"tollota\",\n        \"color\": \"Rojo\",\n        \"version\": null,\n        \"ano\": 2024,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": null\n    },\n    {\n        \"id\": 14,\n        \"matricula\": \"321243\",\n        \"marca\": \"tollota\",\n        \"color\": null,\n        \"version\": null,\n        \"ano\": 2024,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": null\n    },\n    {\n        \"id\": 15,\n        \"matricula\": \"321243\",\n        \"marca\": \"tollota\",\n        \"color\": null,\n        \"version\": null,\n        \"ano\": 2024,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": null\n    },\n    {\n        \"id\": 16,\n        \"matricula\": \"321243\",\n        \"marca\": \"tollota\",\n        \"color\": null,\n        \"version\": null,\n        \"ano\": 2024,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": null\n    },\n    {\n        \"id\": 17,\n        \"matricula\": \"321243\",\n        \"marca\": \"tollota\",\n        \"color\": \"Rojo\",\n        \"version\": null,\n        \"ano\": 2024,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": null\n    },\n    {\n        \"id\": 18,\n        \"matricula\": \"AA2233\",\n        \"marca\": \"Toyota\",\n        \"color\": \"Rojo\",\n        \"version\": null,\n        \"ano\": 2024,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": \"2026-05-08\"\n    },\n    {\n        \"id\": 19,\n        \"matricula\": \"AA2233\",\n        \"marca\": \"Toyota\",\n        \"color\": \"Rojo\",\n        \"version\": null,\n        \"ano\": 2024,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": \"2026-05-08\"\n    },\n    {\n        \"id\": 20,\n        \"matricula\": \"AA2233\",\n        \"marca\": \"Toyota\",\n        \"color\": \"Rojo\",\n        \"version\": null,\n        \"ano\": 2024,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": \"2026-05-08\"\n    },\n    {\n        \"id\": 21,\n        \"matricula\": \"AB1234\",\n        \"marca\": \"Toyota\",\n        \"color\": \"Rojo\",\n        \"version\": null,\n        \"ano\": 2020,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": \"2024-05-01\"\n    },\n    {\n        \"id\": 22,\n        \"matricula\": \"AB1234\",\n        \"marca\": \"Nissan\",\n        \"color\": \"Rojo\",\n        \"version\": null,\n        \"ano\": 2020,\n        \"tipovehiculo\": null,\n        \"fechaingreso\": \"2024-05-01\"\n    }\n]"
+        }
+      ]
+    },
+    {
+      "name": "validacion vehiculo",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "44.211.198.247:8082/api/v2/vehiculos",
+          "host": [
+            "44",
+            "211",
+            "198",
+            "247"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "v2",
+            "vehiculos"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "validacion vehiculo",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "44.211.198.247:8082/api/v2/vehiculos",
+              "host": [
+                "44",
+                "211",
+                "198",
+                "247"
+              ],
+              "port": "8082",
+              "path": [
+                "api",
+                "v2",
+                "vehiculos"
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 22:26:00 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"ano\": \"ingrese el año del vehiculo\",\n    \"tipovehiculo\": \"ingrese el tipo de vehiculo\",\n    \"matricula\": \"La matricula es obligatoria\",\n    \"marca\": \"la marca del auto es obligatorio\",\n    \"color\": \"inngrese el color del vehiculo\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "crear vehiculo",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n        \"matricula\": \"43hzb3\",\r\n        \"marca\": \"mish\",\r\n        \"color\": \"rojo\",\r\n        \"version\": null,\r\n        \"ano\": 2025,\r\n        \"tipovehiculo\": \"4x4\",\r\n        \"fechaingreso\": \"1990-05-12\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "44.211.198.247:8082/api/v2/vehiculos",
+          "host": [
+            "44",
+            "211",
+            "198",
+            "247"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "v2",
+            "vehiculos"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "crear vehiculo",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"matricula\": \"43hzb3\",\r\n        \"marca\": \"mish\",\r\n        \"color\": \"rojo\",\r\n        \"version\": null,\r\n        \"ano\": 2025,\r\n        \"tipovehiculo\": \"4x4\",\r\n        \"fechaingreso\": \"1990-05-12\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "44.211.198.247:8082/api/v2/vehiculos",
+              "host": [
+                "44",
+                "211",
+                "198",
+                "247"
+              ],
+              "port": "8082",
+              "path": [
+                "api",
+                "v2",
+                "vehiculos"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 22:27:26 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 24,\n    \"matricula\": \"43hzb3\",\n    \"marca\": \"mish\",\n    \"color\": \"rojo\",\n    \"version\": null,\n    \"ano\": 2025,\n    \"tipovehiculo\": \"4x4\",\n    \"fechaingreso\": \"1990-05-12\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "editar",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n        \"matricula\": \"43hzb3\",\r\n        \"marca\": \"chevroles\",\r\n        \"color\": \"rojo\",\r\n        \"version\": null,\r\n        \"ano\": 2015,\r\n        \"tipovehiculo\": \"4x4\",\r\n        \"fechaingreso\": \"2025-05-12\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "44.211.198.247:8082/api/v2/vehiculos/24",
+          "host": [
+            "44",
+            "211",
+            "198",
+            "247"
+          ],
+          "port": "8082",
+          "path": [
+            "api",
+            "v2",
+            "vehiculos",
+            "24"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "editar",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n        \"matricula\": \"43hzb3\",\r\n        \"marca\": \"chevroles\",\r\n        \"color\": \"rojo\",\r\n        \"version\": null,\r\n        \"ano\": 2015,\r\n        \"tipovehiculo\": \"4x4\",\r\n        \"fechaingreso\": \"2025-05-12\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "44.211.198.247:8082/api/v2/vehiculos/24",
+              "host": [
+                "44",
+                "211",
+                "198",
+                "247"
+              ],
+              "port": "8082",
+              "path": [
+                "api",
+                "v2",
+                "vehiculos",
+                "24"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 22:28:41 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"id\": 24,\n    \"matricula\": \"43hzb3\",\n    \"marca\": \"chevroles\",\n    \"color\": \"rojo\",\n    \"version\": null,\n    \"ano\": 2015,\n    \"tipovehiculo\": \"4x4\",\n    \"fechaingreso\": \"2025-05-12\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "eliminar",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": [
+        {
+          "name": "eliminar",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "44.211.198.247:8082/api/v2/vehiculos/24",
+              "host": [
+                "44",
+                "211",
+                "198",
+                "247"
+              ],
+              "port": "8082",
+              "path": [
+                "api",
+                "v2",
+                "vehiculos",
+                "24"
+              ]
+            }
+          },
+          "status": "No Content",
+          "code": 204,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Sun, 17 May 2026 22:29:03 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": null
+        }
+      ]
+    }
+  ]
+}
